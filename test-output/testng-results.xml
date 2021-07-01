@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="81970" started-at="2021-07-01T16:07:35Z" finished-at="2021-07-01T16:08:57Z">
+    <groups>
+      <group name="valid">
+        <method signature="CancelTicketTest.validCancelTicket()[pri:1, instance:com.redbus.tests.CancelTicketTest@707194ba]" name="validCancelTicket" class="com.redbus.tests.CancelTicketTest"/>
+      </group> <!-- valid -->
+      <group name="Invalid">
+        <method signature="CancelTicketTest.InvalidCancelTicket()[pri:2, instance:com.redbus.tests.CancelTicketTest@707194ba]" name="InvalidCancelTicket" class="com.redbus.tests.CancelTicketTest"/>
+      </group> <!-- Invalid -->
+    </groups>
+    <test name="Default test" duration-ms="81970" started-at="2021-07-01T16:07:35Z" finished-at="2021-07-01T16:08:57Z">
+      <class name="com.redbus.tests.CancelTicketTest">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.redbus.tests.CancelTicketTest@707194ba]" name="setExtent" is-config="true" duration-ms="171" started-at="2021-07-01T21:37:34Z" finished-at="2021-07-01T21:37:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:com.redbus.tests.CancelTicketTest@707194ba]" name="intializeWebdriver" is-config="true" duration-ms="3645" started-at="2021-07-01T21:37:35Z" finished-at="2021-07-01T21:37:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.CancelTicketTest@707194ba]" name="openBrowser" is-config="true" duration-ms="33093" started-at="2021-07-01T21:37:38Z" finished-at="2021-07-01T21:38:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="validCancelTicket()[pri:1, instance:com.redbus.tests.CancelTicketTest@707194ba]" name="validCancelTicket" duration-ms="6781" started-at="2021-07-01T21:38:11Z" finished-at="2021-07-01T21:38:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCancelTicket -->
+        <test-method status="PASS" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.CancelTicketTest@707194ba]" name="attachScreenShot" is-config="true" duration-ms="8" started-at="2021-07-01T21:38:18Z" finished-at="2021-07-01T21:38:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validCancelTicket status=SUCCESS method=CancelTicketTest.validCancelTicket()[pri:1, instance:com.redbus.tests.CancelTicketTest@707194ba] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.CancelTicketTest@707194ba]" name="closeBrowser" is-config="true" duration-ms="930" started-at="2021-07-01T21:38:18Z" finished-at="2021-07-01T21:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:com.redbus.tests.CancelTicketTest@707194ba]" name="intializeWebdriver" is-config="true" duration-ms="2286" started-at="2021-07-01T21:38:19Z" finished-at="2021-07-01T21:38:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.CancelTicketTest@707194ba]" name="openBrowser" is-config="true" duration-ms="26443" started-at="2021-07-01T21:38:21Z" finished-at="2021-07-01T21:38:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="InvalidCancelTicket()[pri:2, instance:com.redbus.tests.CancelTicketTest@707194ba]" name="InvalidCancelTicket" duration-ms="7700" started-at="2021-07-01T21:38:48Z" finished-at="2021-07-01T21:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidCancelTicket -->
+        <test-method status="PASS" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.CancelTicketTest@707194ba]" name="attachScreenShot" is-config="true" duration-ms="1" started-at="2021-07-01T21:38:56Z" finished-at="2021-07-01T21:38:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidCancelTicket status=SUCCESS method=CancelTicketTest.InvalidCancelTicket()[pri:2, instance:com.redbus.tests.CancelTicketTest@707194ba] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.CancelTicketTest@707194ba]" name="closeBrowser" is-config="true" duration-ms="1047" started-at="2021-07-01T21:38:56Z" finished-at="2021-07-01T21:38:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.redbus.tests.CancelTicketTest@707194ba]" name="endReport" is-config="true" duration-ms="599" started-at="2021-07-01T21:38:57Z" finished-at="2021-07-01T21:38:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.redbus.tests.CancelTicketTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
