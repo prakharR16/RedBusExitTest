@@ -9,12 +9,12 @@ import com.redbus.pages.HomePage;
 import com.redbus.utils.CommomUtils;
 
 public class ChangeTravelDateTest extends Base {
-	private String sheetName = "SearchBusTest";
+	private String sheetName = "RedBusTest";
 
 	@Test(groups = { "valid" }, priority = 1)
-	public void validAboutUs() throws InterruptedException{
-		extentTest = extent.startTest("Change travel date");
-		String testcase = "When_User_Clicks_Cancel_Ticket";
+	public void validChangeTravelDate() throws InterruptedException{
+		extentTest = extent.startTest(prop.getProperty("Change_travel_date_one"));
+		String testcase = "When_User_Clicks_Change_Travel_Date";
 		HomePage h = new HomePage(driver);
 		
 		HashMap<String, String> data = new HashMap<String, String>();
@@ -27,8 +27,8 @@ public class ChangeTravelDateTest extends Base {
 	
 		
 		String expected = driver.getTitle();
-//		Assert.assertEquals(expected, prop.getProperty("About_us_Assert"));
-		log.info("When_User_Clicks_About_Us Test Case passed");
+		Assert.assertEquals(expected,"");
+		log.info("When_User_Clicks_Change_Travel_Date Test Case passed");
 		Thread.sleep(5000);
 		
 	}
