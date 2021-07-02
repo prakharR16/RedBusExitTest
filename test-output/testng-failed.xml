@@ -3,18 +3,21 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.redbus.tests.CancelTicketTest">
+      <class name="com.redbus.tests.OpenGlobalSitesTest">
         <methods>
-          <include name="InvalidCancelTicket"/>
+          <include name="validGlobalPage4"/>
           <include name="endReport"/>
+          <include name="validGlobalPage5"/>
+          <include name="validGlobalPage2"/>
           <include name="closeBrowser"/>
+          <include name="validGlobalPage1"/>
           <include name="setExtent"/>
-          <include name="validCancelTicket"/>
           <include name="intializeWebdriver"/>
+          <include name="validGlobalPage3"/>
           <include name="openBrowser"/>
           <include name="attachScreenShot"/>
         </methods>
-      </class> <!-- com.redbus.tests.CancelTicketTest -->
+      </class> <!-- com.redbus.tests.OpenGlobalSitesTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

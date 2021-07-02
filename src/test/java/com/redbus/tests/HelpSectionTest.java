@@ -21,6 +21,7 @@ public class HelpSectionTest extends Base {
 		extentTest = extent.startTest(prop.getProperty("help_test_one"));
 		String testcase = "When_User_Clicks_Help";
 		HomePage h = new HomePage(driver);
+		HelpPage hp = new HelpPage(driver);
 
 		HashMap<String, String> data = new HashMap<String, String>();
 		data = reader.getRowTestData(sheetName , testcase);
@@ -31,7 +32,7 @@ public class HelpSectionTest extends Base {
 		ArrayList<String> handle = new ArrayList<String>(driver.getWindowHandles());
 		driver.switchTo().window(handle.get(1));
 		
-		HelpPage.clickCross();
+		hp.clickCross();
 		Thread.sleep(2000);
 		
 		String expected = driver.getTitle();

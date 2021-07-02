@@ -1,81 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="81970" started-at="2021-07-01T16:07:35Z" finished-at="2021-07-01T16:08:57Z">
+  <suite name="Default suite" duration-ms="134495" started-at="2021-07-02T13:33:03Z" finished-at="2021-07-02T13:35:18Z">
     <groups>
       <group name="valid">
-        <method signature="CancelTicketTest.validCancelTicket()[pri:1, instance:com.redbus.tests.CancelTicketTest@707194ba]" name="validCancelTicket" class="com.redbus.tests.CancelTicketTest"/>
+        <method signature="OpenGlobalSitesTest.validGlobalPage1()[pri:1, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a]" name="validGlobalPage1" class="com.redbus.tests.OpenGlobalSitesTest"/>
+        <method signature="OpenGlobalSitesTest.validGlobalPage2()[pri:2, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a]" name="validGlobalPage2" class="com.redbus.tests.OpenGlobalSitesTest"/>
+        <method signature="OpenGlobalSitesTest.validGlobalPage3()[pri:3, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a]" name="validGlobalPage3" class="com.redbus.tests.OpenGlobalSitesTest"/>
+        <method signature="OpenGlobalSitesTest.validGlobalPage4()[pri:4, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a]" name="validGlobalPage4" class="com.redbus.tests.OpenGlobalSitesTest"/>
+        <method signature="OpenGlobalSitesTest.validGlobalPage5()[pri:5, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a]" name="validGlobalPage5" class="com.redbus.tests.OpenGlobalSitesTest"/>
       </group> <!-- valid -->
-      <group name="Invalid">
-        <method signature="CancelTicketTest.InvalidCancelTicket()[pri:2, instance:com.redbus.tests.CancelTicketTest@707194ba]" name="InvalidCancelTicket" class="com.redbus.tests.CancelTicketTest"/>
-      </group> <!-- Invalid -->
     </groups>
-    <test name="Default test" duration-ms="81970" started-at="2021-07-01T16:07:35Z" finished-at="2021-07-01T16:08:57Z">
-      <class name="com.redbus.tests.CancelTicketTest">
-        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.redbus.tests.CancelTicketTest@707194ba]" name="setExtent" is-config="true" duration-ms="171" started-at="2021-07-01T21:37:34Z" finished-at="2021-07-01T21:37:35Z">
+    <test name="Default test" duration-ms="134495" started-at="2021-07-02T13:33:03Z" finished-at="2021-07-02T13:35:18Z">
+      <class name="com.redbus.tests.OpenGlobalSitesTest">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a]" name="setExtent" is-config="true" duration-ms="66" started-at="2021-07-02T19:03:03Z" finished-at="2021-07-02T19:03:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:com.redbus.tests.CancelTicketTest@707194ba]" name="intializeWebdriver" is-config="true" duration-ms="3645" started-at="2021-07-01T21:37:35Z" finished-at="2021-07-01T21:37:38Z">
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a]" name="intializeWebdriver" is-config="true" duration-ms="1830" started-at="2021-07-02T19:03:03Z" finished-at="2021-07-02T19:03:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intializeWebdriver -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.CancelTicketTest@707194ba]" name="openBrowser" is-config="true" duration-ms="33093" started-at="2021-07-01T21:37:38Z" finished-at="2021-07-01T21:38:11Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a]" name="openBrowser" is-config="true" duration-ms="6438" started-at="2021-07-02T19:03:05Z" finished-at="2021-07-02T19:03:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="validCancelTicket()[pri:1, instance:com.redbus.tests.CancelTicketTest@707194ba]" name="validCancelTicket" duration-ms="6781" started-at="2021-07-01T21:38:11Z" finished-at="2021-07-01T21:38:18Z">
+        <test-method status="PASS" signature="validGlobalPage1()[pri:1, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a]" name="validGlobalPage1" duration-ms="7421" started-at="2021-07-02T19:03:11Z" finished-at="2021-07-02T19:03:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validCancelTicket -->
-        <test-method status="PASS" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.CancelTicketTest@707194ba]" name="attachScreenShot" is-config="true" duration-ms="8" started-at="2021-07-01T21:38:18Z" finished-at="2021-07-01T21:38:18Z">
+        </test-method> <!-- validGlobalPage1 -->
+        <test-method status="PASS" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a]" name="attachScreenShot" is-config="true" duration-ms="9" started-at="2021-07-02T19:03:19Z" finished-at="2021-07-02T19:03:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validCancelTicket status=SUCCESS method=CancelTicketTest.validCancelTicket()[pri:1, instance:com.redbus.tests.CancelTicketTest@707194ba] output={null}]]]>
+                <![CDATA[[TestResult name=validGlobalPage1 status=SUCCESS method=OpenGlobalSitesTest.validGlobalPage1()[pri:1, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenShot -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.CancelTicketTest@707194ba]" name="closeBrowser" is-config="true" duration-ms="930" started-at="2021-07-01T21:38:18Z" finished-at="2021-07-01T21:38:19Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a]" name="closeBrowser" is-config="true" duration-ms="803" started-at="2021-07-02T19:03:19Z" finished-at="2021-07-02T19:03:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:com.redbus.tests.CancelTicketTest@707194ba]" name="intializeWebdriver" is-config="true" duration-ms="2286" started-at="2021-07-01T21:38:19Z" finished-at="2021-07-01T21:38:21Z">
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a]" name="intializeWebdriver" is-config="true" duration-ms="1299" started-at="2021-07-02T19:03:20Z" finished-at="2021-07-02T19:03:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intializeWebdriver -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.CancelTicketTest@707194ba]" name="openBrowser" is-config="true" duration-ms="26443" started-at="2021-07-01T21:38:21Z" finished-at="2021-07-01T21:38:48Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a]" name="openBrowser" is-config="true" duration-ms="14449" started-at="2021-07-02T19:03:21Z" finished-at="2021-07-02T19:03:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="InvalidCancelTicket()[pri:2, instance:com.redbus.tests.CancelTicketTest@707194ba]" name="InvalidCancelTicket" duration-ms="7700" started-at="2021-07-01T21:38:48Z" finished-at="2021-07-01T21:38:56Z">
+        <test-method status="PASS" signature="validGlobalPage2()[pri:2, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a]" name="validGlobalPage2" duration-ms="5933" started-at="2021-07-02T19:03:35Z" finished-at="2021-07-02T19:03:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- InvalidCancelTicket -->
-        <test-method status="PASS" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.CancelTicketTest@707194ba]" name="attachScreenShot" is-config="true" duration-ms="1" started-at="2021-07-01T21:38:56Z" finished-at="2021-07-01T21:38:56Z">
+        </test-method> <!-- validGlobalPage2 -->
+        <test-method status="PASS" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a]" name="attachScreenShot" is-config="true" duration-ms="1" started-at="2021-07-02T19:03:41Z" finished-at="2021-07-02T19:03:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=InvalidCancelTicket status=SUCCESS method=CancelTicketTest.InvalidCancelTicket()[pri:2, instance:com.redbus.tests.CancelTicketTest@707194ba] output={null}]]]>
+                <![CDATA[[TestResult name=validGlobalPage2 status=SUCCESS method=OpenGlobalSitesTest.validGlobalPage2()[pri:2, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenShot -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.CancelTicketTest@707194ba]" name="closeBrowser" is-config="true" duration-ms="1047" started-at="2021-07-01T21:38:56Z" finished-at="2021-07-01T21:38:57Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a]" name="closeBrowser" is-config="true" duration-ms="953" started-at="2021-07-02T19:03:41Z" finished-at="2021-07-02T19:03:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.redbus.tests.CancelTicketTest@707194ba]" name="endReport" is-config="true" duration-ms="599" started-at="2021-07-01T21:38:57Z" finished-at="2021-07-01T21:38:57Z">
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a]" name="intializeWebdriver" is-config="true" duration-ms="1255" started-at="2021-07-02T19:03:42Z" finished-at="2021-07-02T19:03:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a]" name="openBrowser" is-config="true" duration-ms="26224" started-at="2021-07-02T19:03:43Z" finished-at="2021-07-02T19:04:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="validGlobalPage3()[pri:3, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a]" name="validGlobalPage3" duration-ms="7530" started-at="2021-07-02T19:04:10Z" finished-at="2021-07-02T19:04:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validGlobalPage3 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a]" name="closeBrowser" is-config="true" duration-ms="747" started-at="2021-07-02T19:04:17Z" finished-at="2021-07-02T19:04:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a]" name="attachScreenShot" is-config="true" duration-ms="0" started-at="2021-07-02T19:04:17Z" finished-at="2021-07-02T19:04:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validGlobalPage3 status=SUCCESS method=OpenGlobalSitesTest.validGlobalPage3()[pri:3, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a]" name="intializeWebdriver" is-config="true" duration-ms="1272" started-at="2021-07-02T19:04:18Z" finished-at="2021-07-02T19:04:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a]" name="openBrowser" is-config="true" duration-ms="30931" started-at="2021-07-02T19:04:19Z" finished-at="2021-07-02T19:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="validGlobalPage4()[pri:4, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a]" name="validGlobalPage4" duration-ms="7900" started-at="2021-07-02T19:04:50Z" finished-at="2021-07-02T19:04:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validGlobalPage4 -->
+        <test-method status="PASS" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a]" name="attachScreenShot" is-config="true" duration-ms="1" started-at="2021-07-02T19:04:58Z" finished-at="2021-07-02T19:04:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validGlobalPage4 status=SUCCESS method=OpenGlobalSitesTest.validGlobalPage4()[pri:4, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a]" name="closeBrowser" is-config="true" duration-ms="860" started-at="2021-07-02T19:04:58Z" finished-at="2021-07-02T19:04:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a]" name="intializeWebdriver" is-config="true" duration-ms="1354" started-at="2021-07-02T19:04:59Z" finished-at="2021-07-02T19:05:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a]" name="openBrowser" is-config="true" duration-ms="10329" started-at="2021-07-02T19:05:00Z" finished-at="2021-07-02T19:05:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="validGlobalPage5()[pri:5, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a]" name="validGlobalPage5" duration-ms="6014" started-at="2021-07-02T19:05:11Z" finished-at="2021-07-02T19:05:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validGlobalPage5 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a]" name="closeBrowser" is-config="true" duration-ms="909" started-at="2021-07-02T19:05:17Z" finished-at="2021-07-02T19:05:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a]" name="attachScreenShot" is-config="true" duration-ms="0" started-at="2021-07-02T19:05:17Z" finished-at="2021-07-02T19:05:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validGlobalPage5 status=SUCCESS method=OpenGlobalSitesTest.validGlobalPage5()[pri:5, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.redbus.tests.OpenGlobalSitesTest@1190200a]" name="endReport" is-config="true" duration-ms="179" started-at="2021-07-02T19:05:18Z" finished-at="2021-07-02T19:05:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-      </class> <!-- com.redbus.tests.CancelTicketTest -->
+      </class> <!-- com.redbus.tests.OpenGlobalSitesTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
