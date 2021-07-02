@@ -165,6 +165,20 @@ public class HomePage {
 		home_page_agent_reg_btn.sendKeys(Keys.ENTER);
 	}
 	
+	@FindBy(how = How.XPATH, using = "//a[contains(text(),'Insurance Partner')]")
+	public  WebElement home_page_insurance_btn;
+	
+	public  void clickInsurance() {
+		home_page_insurance_btn.sendKeys(Keys.ENTER);
+	}
+	
+	@FindBy(how = How.XPATH, using = "//a[contains(text(),'User Agreement')]")
+	public  WebElement home_page_usr_agreement_btn;
+	
+	public  void clickUserAgreement() {
+		home_page_usr_agreement_btn.sendKeys(Keys.ENTER);
+	}
+	
 	//-------------Global Sites------------//
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'Singapore')]")
 	public  WebElement home_page_global_singapore_btn;
