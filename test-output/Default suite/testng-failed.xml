@@ -3,21 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.redbus.tests.OpenGlobalSitesTest">
+      <class name="com.redbus.tests.ModifySearch">
         <methods>
-          <include name="validGlobalPage4"/>
           <include name="endReport"/>
-          <include name="validGlobalPage5"/>
-          <include name="validGlobalPage2"/>
           <include name="closeBrowser"/>
-          <include name="validGlobalPage1"/>
+          <include name="careers"/>
           <include name="setExtent"/>
           <include name="intializeWebdriver"/>
-          <include name="validGlobalPage3"/>
           <include name="openBrowser"/>
           <include name="attachScreenShot"/>
         </methods>
-      </class> <!-- com.redbus.tests.OpenGlobalSitesTest -->
+      </class> <!-- com.redbus.tests.ModifySearch -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -12,8 +12,6 @@ import com.redbus.utils.CommomUtils;
 
 public class AgentRegistrationTest extends Base {
 
-
-	//click on login
 	private String sheetName = "RedBusTest";
 
 	@Test(groups = { "valid" }, priority = 1)

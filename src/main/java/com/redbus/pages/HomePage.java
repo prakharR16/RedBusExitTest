@@ -1,5 +1,6 @@
 package com.redbus.pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -25,33 +26,25 @@ public class HomePage {
 	@FindBy(how = How.ID, using = "redBus")
 	public static WebElement home_page_bus_ticket_btn;
 	
-	public static void clickNavBus_Ticket() {
+	public void clickNavBus_Ticket() {
 		home_page_bus_ticket_btn.click();
 	}
 	
 	@FindBy(how = How.ID, using = "cars")
 	public static WebElement home_page_rPool_btn;
 	
-	public static void clickNavrPool() {
+	public void clickNavrPool() {
 		home_page_rPool_btn.click();
 	}
 	
 	@FindBy(how = How.ID, using = "redBus Bus Hire")
 	public static WebElement home_page_bus_hire_btn;
 	
-	public static void clickNav_bus_hire() {
+	public void clickNav_bus_hire() {
 		home_page_bus_hire_btn.click();
 	}
-
-//	// hover over women tab
-//	public void hoverWomenTab() {
-//		Actions ac = new Actions(driver);
-//		ac.moveToElement(womenTab).perform();
-//
-//	}
 	
 	//Home-Page Search Bar
-
 	@FindBy(how = How.XPATH, using = "//input[@id='txtSource']")
 	public  WebElement home_page_enter_from;
 	
@@ -62,7 +55,6 @@ public class HomePage {
 		home_page_enter_from.sendKeys(s);
 		home_page_enter_from.sendKeys(Keys.DOWN);
 		home_page_enter_from_list.click();
-
 	}
 	
 	@FindBy(how = How.XPATH, using = "//input[@id='txtDestination']")
@@ -77,6 +69,7 @@ public class HomePage {
 		home_page_enter_to_list.click();
 
 	}
+	
 	public  void enter_home_search_in_to(String s) {
 		home_page_enter_to.sendKeys(s);
 		home_page_enter_to_list.click();
@@ -99,7 +92,6 @@ public class HomePage {
 
 	
 	//Home-Page Footer
-
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'About Us')]")
 	public  WebElement home_page_about_us_btn;
 	
@@ -214,17 +206,47 @@ public class HomePage {
 	public  void clickGlobalColombiaBtn() {
 		home_page_global_Colombia_btn.sendKeys(Keys.ENTER);
 	}
+		
 	
-	
-	
-	
-	//Home-Page Navigation Bar Right
+	//-----------------Home-Page Navigation Bar Right
 	@FindBy(how = How.XPATH, using = "//i[@id='i-icon-profile']")
 	public  WebElement home_signin_btn;
 	
 	public  void clickSigninlogo() {
 		home_signin_btn.click();
 	}
+	
+	@FindBy(how = How.ID, using = "signin-block")
+	public WebElement signin_btn;
+
+	@FindBy(how = How.ID, using = "signInLink")
+	public WebElement clicksignin;
+
+	@FindBy(how = How.XPATH, using = "//body/div[6]/div[1]/div[2]/div[1]/div[1]/div[3]/iframe[1]")
+	public WebElement popup;
+
+	public void signinnavi() {
+		signin_btn.click();
+	}
+
+	public void clicksignin()  {
+		clicksignin.click();
+
+	}
+
+	public void GooglesignIn() {
+		driver.switchTo().frame(driver.findElement(By.xpath("//body/div[6]/div[1]/div[2]/div[1]/div[1]/div[3]/iframe[1]")));
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div/div[1]/div[8]/div[1]")).click();
+
+	}
+
+	public void closesignin() {
+		popup.click();
+	}
+
+	//-----------------------------//
+
+	
 	
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'Help')]")
 	public  WebElement home_help_btn;
@@ -233,7 +255,7 @@ public class HomePage {
 		home_help_btn.click();
 	}
 	
-	//Home-Page Navigation Bar Right - Manage
+	//------------------Home-Page Navigation Bar Right - Manage
 	@FindBy(how = How.XPATH, using = "//div[contains(text(),'Manage Booking')]")
 	public  WebElement home_manage_bookings_btn;
 	
@@ -241,21 +263,21 @@ public class HomePage {
 		home_manage_bookings_btn.click();
 	}
 	
-	// Manage - Cancel
+	//------------------------- Manage - Cancel
 	@FindBy(how = How.XPATH, using = "//span[contains(text(),'Cancel')]")
 	public  WebElement home_manage_booking_cancel_btn;
 	
 	public  void clickManageBookingCancelBtn() {
 		home_manage_booking_cancel_btn.click();
 	}
-	// Manage - Change date
+	//--------------------------- Manage - Change date
 	@FindBy(how = How.XPATH, using = "//span[contains(text(),'Change Travel Date')]")
 	public  WebElement home_manage_booking_change_date_btn;
 	
 	public  void clickManageBookingChangeTravelDateBtn() {
 		home_manage_booking_change_date_btn.click();
 	}
-	//Manage - Show ticket 
+	//------------------------------Manage - Show ticket 
 	@FindBy(how = How.XPATH, using = "//span[contains(text(),'Show My Ticket')]")
 	public  WebElement home_manage_booking_show_ticket_btn;
 	
@@ -263,7 +285,7 @@ public class HomePage {
 		home_manage_booking_show_ticket_btn.click();
 	}
 	
-	// Manage - Change SMS-Email
+	//------------------------------ Manage - Change SMS-Email
 	@FindBy(how = How.XPATH, using = "//span[contains(text(),'Email/SMS')]")
 	public  WebElement home_manage_booking_sms_btn;
 	

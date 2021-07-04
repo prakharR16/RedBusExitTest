@@ -7,43 +7,42 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
 public class SearchBusPage {
-WebDriver driver;
+	WebDriver driver;
 
- public SearchBusPage(WebDriver driver) {
-PageFactory.initElements(driver, this);
-this.driver = driver;
-}
+	public SearchBusPage(WebDriver driver) {
+		PageFactory.initElements(driver, this);
+		this.driver = driver;
+	}
 
- @FindBy(how = How.ID, using = "src")
-public WebElement source;
+	@FindBy(how = How.ID, using = "src")
+	public WebElement source;
 
- @FindBy(how = How.ID, using = "dest")
-public WebElement destination;
+	@FindBy(how = How.ID, using = "dest")
+	public WebElement destination;
+	
+	@FindBy(how = How.ID, using = "onward_cal")
+	public WebElement ClickDate;
 
- @FindBy(how = How.XPATH, using = "1")
-public WebElement search;
+	@FindBy(how = How.XPATH, using = "//button[@id='search_btn']")
+	public WebElement search;
 
- public void UserSource(String Source) {
-source.click();
-source.sendKeys(Source);
-}
+	public void UserSource(String Source) {
+		source.click();
+		source.sendKeys(Source);
+	}
 
- public void UserDestination(String Destination) {
-destination.click();
-destination.sendKeys(Destination);
-}
+	public void UserDestination(String Destination) {
+		destination.click();
+		destination.sendKeys(Destination);
+	}
 
- public void SearchButton() {
-search.click();
-}
+	public void SearchButton() {
+		search.click();
+	}
 
- // select start date
-@FindBy(how = How.ID, using = "onward_cal")
-public WebElement ClickDate;
+	public void clickDate(String Date) {
+		ClickDate.sendKeys(Date);
 
- public void clickDate(String Date) {
-ClickDate.sendKeys(Date);
-
- }
+	}
 
 }

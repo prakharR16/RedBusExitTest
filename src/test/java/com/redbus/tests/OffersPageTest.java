@@ -28,8 +28,7 @@ public class OffersPageTest extends Base {
 		h.clickOffers();
 		ArrayList<String> handle = new ArrayList<String>(driver.getWindowHandles());
 		driver.switchTo().window(handle.get(1));
-					
-		
+
 		Assert.assertEquals(driver.getTitle(), prop.getProperty("offer_test_Assert"));
 
 		log.info("When_User_Clicks_Offer_btn Case passed");

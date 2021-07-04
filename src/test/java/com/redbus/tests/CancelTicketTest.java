@@ -1,9 +1,7 @@
 package com.redbus.tests;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 
-import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -32,7 +30,7 @@ public class CancelTicketTest extends Base {
 		String expected = driver.getTitle();
 		Assert.assertEquals(expected, prop.getProperty("Cancel_Ticket_Assert"));
 		log.info("When_User_Clicks_About_Us Test Case passed");
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		
 	}
 	
@@ -59,7 +57,7 @@ public class CancelTicketTest extends Base {
 	
 		Assert.assertEquals(expected, prop.getProperty("Cancel_Ticket_two_Assert"));
 		log.info("When_User_Clicks_Cancel_Ticket_And_Data Test Case failed");
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		
 	}
 

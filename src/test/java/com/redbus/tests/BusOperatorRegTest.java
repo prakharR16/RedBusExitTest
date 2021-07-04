@@ -12,7 +12,7 @@ import com.redbus.utils.CommomUtils;
 
 public class BusOperatorRegTest extends Base {
 
-	private String sheetName = "RedBusTest";
+	private String sheetName = "BusOpTest";
 
 	@Test(groups = { "valid" }, priority = 1)
 	public void validOperatorReg() throws InterruptedException{
@@ -31,7 +31,8 @@ public class BusOperatorRegTest extends Base {
 		driver.switchTo().window(handle.get(1));
 		Thread.sleep(2000);
 		
-		bo.enterOperatorMobile(prop.getProperty("Mob_no"));
+		String mobile_num = data.get("Mobile No");
+		bo.enterOperatorMobile(mobile_num);
 		bo.clickCapcta();
 		String expected = driver.getTitle();
 		Assert.assertEquals(expected, prop.getProperty("Operator_Reg_Assert"));

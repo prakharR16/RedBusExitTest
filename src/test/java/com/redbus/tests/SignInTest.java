@@ -1,7 +1,6 @@
 package com.redbus.tests;
 
 import java.util.HashMap;
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -18,13 +17,17 @@ public class SignInTest extends Base{
 		String testcase = "When_User_Clicks_SignIn";
 		HomePage h = new HomePage(driver);
 		
+		
 		HashMap<String, String> data = new HashMap<String, String>();
 		data = reader.getRowTestData(sheetName , testcase);
 		String executionRequired = data.get("Execution Required").toLowerCase();
 		CommomUtils.toCheckExecutionRequired(executionRequired);
 		
-		h.clickSigninlogo();
-		Thread.sleep(2000);
+		
+		h.signinnavi();
+		h.clicksignin();
+	//	h.GooglesignIn();
+		h.closesignin();
 
 		String expected = driver.getTitle();
 		Assert.assertEquals(expected, prop.getProperty("signin_Assert"));

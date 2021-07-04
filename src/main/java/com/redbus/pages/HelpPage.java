@@ -17,11 +17,18 @@ public class HelpPage {
 		this.driver = driver;
 	}
 	
+	
+	@FindBy(how = How.XPATH, using = "//input[@id='mobileNoInp']")
+	public static WebElement enter_mob;
+	
+	public void enterMobile(String s) {
+		enter_mob.sendKeys(s);
+	}
 
 	@FindBy(how = How.XPATH, using = "//body/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/i[1]")
 	public static WebElement help_page_cross_btn;
 	
-	public static void clickCross() {
+	public void clickCross() {
 		help_page_cross_btn.click();
 	}
 

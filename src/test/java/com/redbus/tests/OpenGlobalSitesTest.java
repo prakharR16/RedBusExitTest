@@ -36,6 +36,8 @@ public class OpenGlobalSitesTest extends Base {
 		Thread.sleep(5000);
 		
 	}
+	
+	
 	@Test(groups = { "valid" }, priority = 2)
 	public void validGlobalPage2() throws InterruptedException{
 		extentTest = extent.startTest(prop.getProperty("global_two"));
@@ -61,6 +63,8 @@ public class OpenGlobalSitesTest extends Base {
 		Thread.sleep(2000);
 		
 	}
+	
+	
 	@Test(groups = { "valid" }, priority = 3)
 	public void validGlobalPage3() throws InterruptedException{
 		extentTest = extent.startTest(prop.getProperty("global_three"));
@@ -85,6 +89,8 @@ public class OpenGlobalSitesTest extends Base {
 		Thread.sleep(5000);
 		
 	}
+	
+	
 	@Test(groups = { "valid" }, priority = 4)
 	public void validGlobalPage4() throws InterruptedException{
 		extentTest = extent.startTest(prop.getProperty("global_four"));
@@ -108,6 +114,8 @@ public class OpenGlobalSitesTest extends Base {
 		Thread.sleep(2000);
 		
 	}
+	
+	
 	@Test(groups = { "valid" }, priority = 5)
 	public void validGlobalPage5() throws InterruptedException{
 		extentTest = extent.startTest(prop.getProperty("global_five"));

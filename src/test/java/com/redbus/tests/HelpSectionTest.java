@@ -2,6 +2,7 @@ package com.redbus.tests;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.concurrent.TimeUnit;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -12,9 +13,8 @@ import com.redbus.utils.CommomUtils;
 
 public class HelpSectionTest extends Base {
 
-	private String sheetName = "RedBusTest";
+	private String sheetName = "HelpTest";
 
-	//click and cross
 	@Test(groups = { "valid" }, priority = 1)
 	public void validHelpSection() throws InterruptedException{
 		
@@ -33,7 +33,6 @@ public class HelpSectionTest extends Base {
 		driver.switchTo().window(handle.get(1));
 		
 		hp.clickCross();
-		Thread.sleep(2000);
 		
 		String expected = driver.getTitle();
 		Assert.assertEquals(expected, prop.getProperty("help_test_Assert"));

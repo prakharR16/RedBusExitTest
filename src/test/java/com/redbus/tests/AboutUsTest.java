@@ -26,12 +26,11 @@ public class AboutUsTest extends Base{
 		h.clickAboutUs();
 		ArrayList<String> handle = new ArrayList<String>(driver.getWindowHandles());
 		driver.switchTo().window(handle.get(1));
-		Thread.sleep(2000);
 		
 		String expected = driver.getTitle();
 		Assert.assertEquals(expected, prop.getProperty("About_us_Assert"));
 		log.info("When_User_Clicks_About_Us Test Case passed");
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		
 	}
 

@@ -17,7 +17,6 @@ public class CareerTest extends Base{
 		String testcase = "When_User_Clicks_Career";
 		
 		HashMap<String, String> data = new HashMap<String, String>();
-		
 		data = reader.getRowTestData(sheetName, testcase);
 		String executionRequired = data.get("Execution Required").toLowerCase();
 		CommomUtils.toCheckExecutionRequired(executionRequired);

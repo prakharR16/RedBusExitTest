@@ -29,7 +29,7 @@ public class ChangeTravelDateTest extends Base {
 		String expected = driver.getTitle();
 		Assert.assertEquals(expected,"");
 		log.info("When_User_Clicks_Change_Travel_Date Test Case passed");
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		
 	}
 

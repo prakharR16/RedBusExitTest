@@ -30,7 +30,7 @@ public class ShowMyTicketTest extends Base{
 		String expected = driver.getTitle();
 		Assert.assertEquals(expected, "");
 		log.info("When_User_Clicks_Show_Ticket Test Case passed");
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		
 	}
 

@@ -9,11 +9,14 @@
 - Maven 
 - Extent report
 - log4j
+- Github
+- Jenkins
+- Docker
 
 #Packages Description:
-- tests
-- utils
-- pages
+- com.redbus.tests
+- com.redbus.utils
+- com.redbus.pages
 
 #Reports Folder:
 - *ExtentReports.html*
@@ -37,24 +40,7 @@ extends Base.java
 #ContactUsTest.java
 extends Base.java
 - contactUsPage
-- contactUsForm()
-- inValidcontactUsForm()
 
-#ProductValidationTest.java
-extends Base.java
-- productValidateSucess()
-- productValidateFail()
-
-#UserLoginTest.java
-extends Base.java
-- ValidLogin()
-- inValidLogin()
-
-#UserRegistrationTest.java
-extends Base.java
-- RegisterOldUser()
-- RegisterNewUser()
-- invalidRegisterNewUser()
 
 #Tested functionalities:
 
@@ -78,11 +64,11 @@ extends Base.java
 - After step 2, run as maven install
 
 **Step 4**
-- After step3 GOTO SeleniumAssignmentFinal\Reports
+- After step3 GOTO TDDEXIT\Reports
 and open ExtentReports.html
 
 **Step 5**
-- GOTO SeleniumAssignmentFinal\log
+- GOTO TDDEXIT\log
 for log files
 
 
@@ -90,19 +76,20 @@ for log files
 
 
 **Step 1**
-- Goto folder ,in address bar type "cmd".
+- Goto folder, in address bar type "cmd".
 
 **Step 2**
 - Type "mvn clean" in cmd and press Enter.
 
 **Step 3**
 - Type "mvn install" in cmd and press Enter.
+- or Type "mvn clean test" in cmd and press Enter.
 
 **Step 4**
-- After step3 GOTO SeleniumAssignmentFinal\Reports
+- After step3 GOTO TDDEXIT\Reports
 and open ExtentReports.html
 
 **Step 5**
-- GOTO SeleniumAssignmentFinal\log for log files
+- GOTO TDDEXIT\log for log files
 
 

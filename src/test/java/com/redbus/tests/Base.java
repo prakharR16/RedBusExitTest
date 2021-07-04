@@ -91,7 +91,7 @@ public class Base {
 			String screenshotPath = TakeScreenshot.takeScreenShot(driver, result.getName());
 			extentTest.log(LogStatus.FAIL, extentTest.addScreenCapture(screenshotPath));
 		} else if (result.getStatus() == ITestResult.SUCCESS) {
-			extentTest.log(LogStatus.PASS, "Valid scenario test case passed successfully");
+			extentTest.log(LogStatus.PASS, "Valid scenario Test-Case passed successfully");
 		}
 		extent.endTest(extentTest);
 	}
@@ -100,6 +100,7 @@ public class Base {
 	public static void intializeWebdriver() throws Exception {
 		String browser = prop.getProperty("browser_name");
 		String headless = prop.getProperty("headless_mode");
+
 		// Check if parameter passed is firefox
 		if (browser.equalsIgnoreCase("firefox")) {
 			if (headless.equalsIgnoreCase("yes")) {
@@ -108,11 +109,14 @@ public class Base {
 				firefoxBinary.addCommandLineOptions("-headless");
 				FirefoxOptions options = new FirefoxOptions();
 				options.setBinary(firefoxBinary);
-				// create firefox instance
+				// creating a firefox driver with headless
 				driver = new FirefoxDriver(options);
 			} else if (headless.equalsIgnoreCase("no")) {
+
+				// creating a firefox driver without headless
 				System.setProperty(prop.getProperty("f_driver"), prop.getProperty("firefox_driver"));
 				driver = new FirefoxDriver();
+
 			}
 		}
 
@@ -121,10 +125,14 @@ public class Base {
 			if (headless.equalsIgnoreCase("yes")) {
 				System.setProperty(prop.getProperty("c_driver"), prop.getProperty("chrome_driver"));
 				ChromeOptions options = new ChromeOptions();
+				options.addArguments("--disable-notifications");
+				options.addArguments(
+						"user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36");
 				options.addArguments("headless");
-				// create chrome instance
+				// create chrome instance with headless
 				driver = new ChromeDriver(options);
 			} else if (headless.equalsIgnoreCase("no")) {
+				// creating a chrome driver without headless
 				System.setProperty(prop.getProperty("c_driver"), prop.getProperty("chrome_driver"));
 				driver = new ChromeDriver();
 			}

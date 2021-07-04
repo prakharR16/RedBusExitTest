@@ -29,7 +29,7 @@ public class EmailAndSmsTest extends Base {
 		String expected = driver.getTitle();
 		Assert.assertEquals(expected, "");
 		log.info("When_User_Clicks_Email_And_Sms Test Case passed");
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		
 	}
 

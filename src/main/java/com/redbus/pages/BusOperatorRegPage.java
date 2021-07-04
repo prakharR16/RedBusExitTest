@@ -17,14 +17,14 @@ public class BusOperatorRegPage {
 	@FindBy(how = How.XPATH, using = "//body/div[@id='root']/div[1]/div[1]/div[3]/div[2]/div[2]/div[1]/div[1]/form[1]/div[1]/div[1]/input[1]")
 	public static WebElement mobileNumInput;
 	
-	public static void enterOperatorMobile(String s) {
+	public void enterOperatorMobile(String s) {
 		mobileNumInput.sendKeys(s);
 	}
 	
 	@FindBy(how = How.XPATH, using = "//body/div[@id='root']/div[1]/div[1]/div[3]/div[2]/div[2]/div[1]/div[1]/form[1]/div[1]/div[2]/div[1]/div[1]")
 	public static WebElement cc_box;
 	
-	public static void clickCapcta() {
+	public void clickCapcta() {
 		cc_box.click();
 	}
 		

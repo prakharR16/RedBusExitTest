@@ -60,7 +60,7 @@ public class OtherSitesTest extends Base {
 		driver.switchTo().window(handle.get(1));
 		Assert.assertEquals(driver.getTitle(), prop.getProperty("Other_two_Assert"));
 
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		
 		log.info("When_User_Clicks_MakeMyTrip_btn test Case passed");
 		Thread.sleep(2000);

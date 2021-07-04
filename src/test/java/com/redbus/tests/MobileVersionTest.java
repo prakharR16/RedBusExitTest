@@ -29,7 +29,6 @@ public class MobileVersionTest extends Base {
 		Thread.sleep(2000);
 		
 		Assert.assertEquals(driver.getTitle(), prop.getProperty("Mobile_Version_Assert"));
-
 		log.info("When_User_Clicks_Mobile_Version Case passed");
 		Thread.sleep(2000);
 
