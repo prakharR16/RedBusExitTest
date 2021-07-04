@@ -93,3 +93,31 @@ and open ExtentReports.html
 - GOTO TDDEXIT\log for log files
 
 
+#Steps to Run (cmd)-
+
+
+**Step 1**
+- Goto folder, in address bar type "cmd".
+
+**Step 2**
+- Type "java -jar jenkins.war --httpPort=9090" and press enter to open jenkins
+
+**Step 3**
+- Open browser and goto "http://localhost:9090/" 
+- Create new item
+- Use freestyle Project
+- Add description
+- Choose Git as source code management
+- Choose Windows Batch command in Build and add "mvn clean test"
+
+**Step 4**
+- Type "mvn install" in cmd and press Enter.
+- or Type "mvn clean test" in cmd and press Enter.
+
+**Step 4**
+- After step3 GOTO TDDEXIT\Reports
+and open ExtentReports.html
+
+**Step 5**
+- GOTO TDDEXIT\log for log files
+

@@ -1,0 +1,224 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>29/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jul 03 15:01:50 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>940 seconds (940179 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.redbus.tests.AgentRegistrationTest.InvalidAgentReg()'><b>InvalidAgentReg</b><br>Test class: com.redbus.tests.AgentRegistrationTest</td>
+<td></td>
+<td>9</td>
+<td>com.redbus.tests.AgentRegistrationTest@58ea606c</td></tr>
+<tr>
+<td title='com.redbus.tests.CancelTicketTest.InvalidCancelTicket()'><b>InvalidCancelTicket</b><br>Test class: com.redbus.tests.CancelTicketTest</td>
+<td></td>
+<td>6</td>
+<td>com.redbus.tests.CancelTicketTest@38102d01</td></tr>
+<tr>
+<td title='com.redbus.tests.SearchTest.When_User_Enter_Valid_From_InValid_To_and_Valid_Date()'><b>When_User_Enter_Valid_From_InValid_To_and_Valid_Date</b><br>Test class: com.redbus.tests.SearchTest</td>
+<td></td>
+<td>15</td>
+<td>com.redbus.tests.SearchTest@63070bab</td></tr>
+<tr>
+<td title='com.redbus.tests.SearchTest.When_User_Enter_Valid_From_Valid_To_and_InValid_Date()'><b>When_User_Enter_Valid_From_Valid_To_and_InValid_Date</b><br>Test class: com.redbus.tests.SearchTest</td>
+<td></td>
+<td>14</td>
+<td>com.redbus.tests.SearchTest@63070bab</td></tr>
+<tr>
+<td title='com.redbus.tests.SearchTest.When_User_Enter_Valid_From_Valid_To_and_Valid_Date()'><b>When_User_Enter_Valid_From_Valid_To_and_Valid_Date</b><br>Test class: com.redbus.tests.SearchTest</td>
+<td></td>
+<td>14</td>
+<td>com.redbus.tests.SearchTest@63070bab</td></tr>
+<tr>
+<td title='com.redbus.tests.AboutUsTest.validAboutUs()'><b>validAboutUs</b><br>Test class: com.redbus.tests.AboutUsTest</td>
+<td></td>
+<td>12</td>
+<td>com.redbus.tests.AboutUsTest@3af9c5b7</td></tr>
+<tr>
+<td title='com.redbus.tests.AgentRegistrationTest.validAgentReg()'><b>validAgentReg</b><br>Test class: com.redbus.tests.AgentRegistrationTest</td>
+<td></td>
+<td>6</td>
+<td>com.redbus.tests.AgentRegistrationTest@58ea606c</td></tr>
+<tr>
+<td title='com.redbus.tests.BusHireTest.validBusHireForm()'><b>validBusHireForm</b><br>Test class: com.redbus.tests.BusHireTest</td>
+<td></td>
+<td>40</td>
+<td>com.redbus.tests.BusHireTest@1dac5ef</td></tr>
+<tr>
+<td title='com.redbus.tests.BusPoolTest.validBusPool()'><b>validBusPool</b><br>Test class: com.redbus.tests.BusPoolTest</td>
+<td></td>
+<td>12</td>
+<td>com.redbus.tests.BusPoolTest@37883b97</td></tr>
+<tr>
+<td title='com.redbus.tests.CancelTicketTest.validCancelTicket()'><b>validCancelTicket</b><br>Test class: com.redbus.tests.CancelTicketTest</td>
+<td></td>
+<td>6</td>
+<td>com.redbus.tests.CancelTicketTest@38102d01</td></tr>
+<tr>
+<td title='com.redbus.tests.CareerTest.validCareerPageTest()'><b>validCareerPageTest</b><br>Test class: com.redbus.tests.CareerTest</td>
+<td></td>
+<td>4</td>
+<td>com.redbus.tests.CareerTest@10aa41f2</td></tr>
+<tr>
+<td title='com.redbus.tests.ChangeTravelDateTest.validChangeTravelDate()'><b>validChangeTravelDate</b><br>Test class: com.redbus.tests.ChangeTravelDateTest</td>
+<td></td>
+<td>9</td>
+<td>com.redbus.tests.ChangeTravelDateTest@4c309d4d</td></tr>
+<tr>
+<td title='com.redbus.tests.ContactUsTest.validContactUs()'><b>validContactUs</b><br>Test class: com.redbus.tests.ContactUsTest</td>
+<td></td>
+<td>5</td>
+<td>com.redbus.tests.ContactUsTest@6aaceffd</td></tr>
+<tr>
+<td title='com.redbus.tests.EmailAndSmsTest.validEmailAndSms()'><b>validEmailAndSms</b><br>Test class: com.redbus.tests.EmailAndSmsTest</td>
+<td></td>
+<td>6</td>
+<td>com.redbus.tests.EmailAndSmsTest@77f80c04</td></tr>
+<tr>
+<td title='com.redbus.tests.OpenGlobalSitesTest.validGlobalPage1()'><b>validGlobalPage1</b><br>Test class: com.redbus.tests.OpenGlobalSitesTest</td>
+<td></td>
+<td>9</td>
+<td>com.redbus.tests.OpenGlobalSitesTest@6ab778a</td></tr>
+<tr>
+<td title='com.redbus.tests.OpenGlobalSitesTest.validGlobalPage2()'><b>validGlobalPage2</b><br>Test class: com.redbus.tests.OpenGlobalSitesTest</td>
+<td></td>
+<td>5</td>
+<td>com.redbus.tests.OpenGlobalSitesTest@6ab778a</td></tr>
+<tr>
+<td title='com.redbus.tests.OpenGlobalSitesTest.validGlobalPage3()'><b>validGlobalPage3</b><br>Test class: com.redbus.tests.OpenGlobalSitesTest</td>
+<td></td>
+<td>8</td>
+<td>com.redbus.tests.OpenGlobalSitesTest@6ab778a</td></tr>
+<tr>
+<td title='com.redbus.tests.OpenGlobalSitesTest.validGlobalPage4()'><b>validGlobalPage4</b><br>Test class: com.redbus.tests.OpenGlobalSitesTest</td>
+<td></td>
+<td>8</td>
+<td>com.redbus.tests.OpenGlobalSitesTest@6ab778a</td></tr>
+<tr>
+<td title='com.redbus.tests.OpenGlobalSitesTest.validGlobalPage5()'><b>validGlobalPage5</b><br>Test class: com.redbus.tests.OpenGlobalSitesTest</td>
+<td></td>
+<td>6</td>
+<td>com.redbus.tests.OpenGlobalSitesTest@6ab778a</td></tr>
+<tr>
+<td title='com.redbus.tests.OtherSitesTest.validGotoGoibibo()'><b>validGotoGoibibo</b><br>Test class: com.redbus.tests.OtherSitesTest</td>
+<td></td>
+<td>12</td>
+<td>com.redbus.tests.OtherSitesTest@5c90e579</td></tr>
+<tr>
+<td title='com.redbus.tests.OtherSitesTest.validGotoMakeMyTrip()'><b>validGotoMakeMyTrip</b><br>Test class: com.redbus.tests.OtherSitesTest</td>
+<td></td>
+<td>14</td>
+<td>com.redbus.tests.OtherSitesTest@5c90e579</td></tr>
+<tr>
+<td title='com.redbus.tests.HelpSectionTest.validHelpSection()'><b>validHelpSection</b><br>Test class: com.redbus.tests.HelpSectionTest</td>
+<td></td>
+<td>9</td>
+<td>com.redbus.tests.HelpSectionTest@687e99d8</td></tr>
+<tr>
+<td title='com.redbus.tests.InsurancePartner.validInsurancePartnerTest()'><b>validInsurancePartnerTest</b><br>Test class: com.redbus.tests.InsurancePartner</td>
+<td></td>
+<td>5</td>
+<td>com.redbus.tests.InsurancePartner@c86b9e3</td></tr>
+<tr>
+<td title='com.redbus.tests.MobileVersionTest.validMobileVersionTest()'><b>validMobileVersionTest</b><br>Test class: com.redbus.tests.MobileVersionTest</td>
+<td></td>
+<td>5</td>
+<td>com.redbus.tests.MobileVersionTest@4e3958e7</td></tr>
+<tr>
+<td title='com.redbus.tests.OffersPageTest.validOffersPage()'><b>validOffersPage</b><br>Test class: com.redbus.tests.OffersPageTest</td>
+<td></td>
+<td>5</td>
+<td>com.redbus.tests.OffersPageTest@6f45df59</td></tr>
+<tr>
+<td title='com.redbus.tests.BusOperatorRegTest.validOperatorReg()'><b>validOperatorReg</b><br>Test class: com.redbus.tests.BusOperatorRegTest</td>
+<td></td>
+<td>11</td>
+<td>com.redbus.tests.BusOperatorRegTest@e4487af</td></tr>
+<tr>
+<td title='com.redbus.tests.ShowMyTicketTest.validShowTicket()'><b>validShowTicket</b><br>Test class: com.redbus.tests.ShowMyTicketTest</td>
+<td></td>
+<td>6</td>
+<td>com.redbus.tests.ShowMyTicketTest@38e79ae3</td></tr>
+<tr>
+<td title='com.redbus.tests.SignInTest.validSignIn()'><b>validSignIn</b><br>Test class: com.redbus.tests.SignInTest</td>
+<td></td>
+<td>7</td>
+<td>com.redbus.tests.SignInTest@37271612</td></tr>
+<tr>
+<td title='com.redbus.tests.UserAgreementTest.validUserAgreementTest()'><b>validUserAgreementTest</b><br>Test class: com.redbus.tests.UserAgreementTest</td>
+<td></td>
+<td>10</td>
+<td>com.redbus.tests.UserAgreementTest@ed7f8b4</td></tr>
+</table><p>
+</body>
+</html>

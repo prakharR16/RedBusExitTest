@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.redbus.tests.HelpSectionTest"/>
+      <class name="com.redbus.tests.BusOperatorRegTest"/>
+      <class name="com.redbus.tests.ContactUsTest"/>
+      <class name="com.redbus.tests.InsurancePartner"/>
+      <class name="com.redbus.tests.CareerTest"/>
+      <class name="com.redbus.tests.AboutUsTest"/>
+      <class name="com.redbus.tests.SignInTest"/>
+      <class name="com.redbus.tests.UserAgreementTest"/>
+      <class name="com.redbus.tests.ChangeTravelDateTest"/>
+      <class name="com.redbus.tests.CancelTicketTest"/>
+      <class name="com.redbus.tests.BusPoolTest"/>
+      <class name="com.redbus.tests.OpenGlobalSitesTest"/>
+      <class name="com.redbus.tests.MobileVersionTest"/>
+      <class name="com.redbus.tests.EmailAndSmsTest"/>
+      <class name="com.redbus.tests.BusHireTest"/>
+      <class name="com.redbus.tests.OtherSitesTest"/>
+      <class name="com.redbus.tests.AgentRegistrationTest"/>
+      <class name="com.redbus.tests.OffersPageTest"/>
+      <class name="com.redbus.tests.ShowMyTicketTest"/>
+      <class name="com.redbus.tests.SearchTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
