@@ -3,17 +3,18 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.redbus.tests.ModifySearch">
+      <class name="com.redbus.tests.OtherSitesTest">
         <methods>
           <include name="endReport"/>
           <include name="closeBrowser"/>
-          <include name="careers"/>
+          <include name="validGotoMakeMyTrip"/>
           <include name="setExtent"/>
+          <include name="validGotoGoibibo"/>
           <include name="intializeWebdriver"/>
           <include name="openBrowser"/>
           <include name="attachScreenShot"/>
         </methods>
-      </class> <!-- com.redbus.tests.ModifySearch -->
+      </class> <!-- com.redbus.tests.OtherSitesTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -748,3 +748,116 @@
 2021-07-05 14:53:45,868 [main] INFO com.redbus.tests.Base - When_User_Clicks_Global_Site_3 Test Case passed
 2021-07-05 14:54:10,314 [main] INFO com.redbus.tests.Base - When_User_Clicks_Global_Site_4 Test Case passed
 2021-07-05 14:54:25,541 [main] INFO com.redbus.tests.Base - When_User_Clicks_Global_Site_5 Test Case passed
+2021-07-05 14:57:16,519 [main] INFO com.redbus.tests.Base - When_User_Enter_Valid_From_Valid_To_and_InValid_Date functionality Test Case Passed
+2021-07-05 14:57:36,628 [main] INFO com.redbus.tests.Base - When_User_Enter_Valid_From_Valid_To_and_Valid_Date Test Case Passed
+2021-07-05 14:57:49,134 [main] INFO com.redbus.tests.Base - When_User_Clicks_About_Us Test Case passed
+2021-07-05 14:58:15,471 [main] INFO com.redbus.tests.Base - When_User_Clicks_Agent_Reg_And_Data Test Case passed
+2021-07-05 14:58:31,461 [main] INFO com.redbus.tests.Base - When_User_Clicks_Agent_Reg Test Case passed
+2021-07-05 14:59:00,186 [main] INFO com.redbus.tests.Base - When_User_Clicks_Bus_Hire Test Case passed
+2021-07-05 15:00:14,931 [main] INFO com.redbus.tests.Base - When_User_Clicks_User_Agreement Test Case passed
+2021-07-05 15:00:39,592 [main] INFO com.redbus.tests.Base - When_User_Clicks_Operator_Reg Test Case passed
+2021-07-05 15:01:03,727 [main] INFO com.redbus.tests.Base - When_User_Clicks_Bus_Pool Test Case passed
+2021-07-05 15:01:29,927 [main] INFO com.redbus.tests.Base - When_User_Clicks_Bus_Pool_Android Test Case passed
+2021-07-05 15:02:08,842 [main] INFO com.redbus.tests.Base - When_User_Clicks_Career Test Case passed
+2021-07-05 15:02:44,325 [main] INFO com.redbus.tests.Base - When_User_Clicks_Contact_Us Test Case passed
+2021-07-05 15:03:31,476 [main] INFO com.redbus.tests.Base - When_User_Clicks_Mobile_Version Case passed
+2021-07-05 15:03:50,097 [main] INFO com.redbus.tests.Base - When_User_Clicks_Offer_btn Case passed
+2021-07-05 15:04:08,265 [main] INFO com.redbus.tests.Base - When_User_Clicks_Global_Site_1 Test Case passed
+2021-07-05 15:04:32,280 [main] INFO com.redbus.tests.Base - When_User_Clicks_Goibibo_btn test Case passed
+2021-07-05 15:09:08,916 [main] INFO com.redbus.tests.Base - When_User_Enter_Valid_From_InValid_To_and_Valid_Date Test Case Passed
+2021-07-05 15:09:32,608 [main] INFO com.redbus.tests.Base - When_User_Enter_Valid_From_Valid_To_and_InValid_Date functionality Test Case Passed
+2021-07-05 15:09:52,020 [main] INFO com.redbus.tests.Base - When_User_Enter_Valid_From_Valid_To_and_Valid_Date Test Case Passed
+2021-07-05 15:10:01,757 [main] INFO com.redbus.tests.Base - When_User_Clicks_About_Us Test Case passed
+2021-07-05 15:10:12,267 [main] INFO com.redbus.tests.Base - When_User_Clicks_Show_Ticket Test Case passed
+2021-07-05 15:10:32,965 [main] INFO com.redbus.tests.Base - When_User_Clicks_Agent_Reg_And_Data Test Case passed
+2021-07-05 15:10:47,655 [main] INFO com.redbus.tests.Base - When_User_Clicks_Agent_Reg Test Case passed
+2021-07-05 15:10:55,042 [main] INFO com.redbus.tests.Base - When_User_Clicks_SignIn Test Case passed
+2021-07-05 15:11:11,828 [main] INFO com.redbus.tests.Base - When_User_Clicks_Bus_Hire Test Case passed
+2021-07-05 15:11:47,384 [main] INFO com.redbus.tests.Base - When_User_Clicks_Bus_Hire Test Case passed
+2021-07-05 15:12:16,453 [main] INFO com.redbus.tests.Base - When_User_Clicks_Bus_Hire Test Case passed
+2021-07-05 15:12:26,231 [main] INFO com.redbus.tests.Base - When_User_Clicks_User_Agreement Test Case passed
+2021-07-05 15:12:43,075 [main] INFO com.redbus.tests.Base - When_User_Clicks_Operator_Reg Test Case passed
+2021-07-05 15:12:59,917 [main] INFO com.redbus.tests.Base - When_User_Clicks_Bus_Pool Test Case passed
+2021-07-05 15:13:31,444 [main] INFO com.redbus.tests.Base - When_User_Clicks_Bus_Pool_Android Test Case passed
+2021-07-05 15:13:59,857 [main] INFO com.redbus.tests.Base - When_User_Clicks_About_Us Test Case passed
+2021-07-05 15:14:12,763 [main] INFO com.redbus.tests.Base - When_User_Clicks_Career Test Case passed
+2021-07-05 15:14:23,462 [main] INFO com.redbus.tests.Base - When_User_Clicks_Change_Travel_Date Test Case passed
+2021-07-05 15:14:34,017 [main] INFO com.redbus.tests.Base - When_User_Clicks_Contact_Us Test Case passed
+2021-07-05 15:14:49,770 [main] INFO com.redbus.tests.Base - When_User_Clicks_Email_And_Sms Test Case passed
+2021-07-05 15:15:34,371 [main] INFO com.redbus.tests.Base - When_User_Clicks_Help Test Case passed
+2021-07-05 15:15:46,691 [main] INFO com.redbus.tests.Base - When_User_Clicks_Mobile_Version Case passed
+2021-07-05 15:15:58,485 [main] INFO com.redbus.tests.Base - When_User_Clicks_Offer_btn Case passed
+2021-07-05 15:16:12,986 [main] INFO com.redbus.tests.Base - When_User_Clicks_Global_Site_1 Test Case passed
+2021-07-05 15:16:37,804 [main] INFO com.redbus.tests.Base - When_User_Clicks_Goibibo_btn test Case passed
+2021-07-05 15:17:01,060 [main] INFO com.redbus.tests.Base - When_User_Clicks_MakeMyTrip_btn test Case passed
+2021-07-05 15:17:26,398 [main] INFO com.redbus.tests.Base - When_User_Clicks_Cancel_Ticket_And_Data Test Case failed
+2021-07-05 15:17:41,180 [main] INFO com.redbus.tests.Base - When_User_Clicks_Global_Site_2 Test Case passed
+2021-07-05 15:17:51,961 [main] INFO com.redbus.tests.Base - When_User_Clicks_Global_Site_3 Test Case passed
+2021-07-05 15:18:10,960 [main] INFO com.redbus.tests.Base - When_User_Clicks_Global_Site_4 Test Case passed
+2021-07-05 15:18:24,811 [main] INFO com.redbus.tests.Base - When_User_Clicks_Global_Site_5 Test Case passed
+2021-07-05 15:26:18,514 [main] INFO com.redbus.tests.Base - When_User_Clicks_Goibibo_btn test Case passed
+2021-07-05 15:26:43,491 [main] INFO com.redbus.tests.Base - When_User_Clicks_MakeMyTrip_btn test Case passed
+2021-07-05 15:27:31,494 [main] INFO com.redbus.tests.Base - When_User_Enter_Valid_From_InValid_To_and_Valid_Date Test Case Passed
+2021-07-05 15:28:14,856 [main] INFO com.redbus.tests.Base - When_User_Enter_Valid_From_Valid_To_and_InValid_Date functionality Test Case Passed
+2021-07-05 15:28:43,030 [main] INFO com.redbus.tests.Base - When_User_Enter_Valid_From_Valid_To_and_Valid_Date Test Case Passed
+2021-07-05 15:29:06,141 [main] INFO com.redbus.tests.Base - When_User_Clicks_About_Us Test Case passed
+2021-07-05 15:29:40,827 [main] INFO com.redbus.tests.Base - When_User_Clicks_Show_Ticket Test Case passed
+2021-07-05 15:30:03,770 [main] INFO com.redbus.tests.Base - When_User_Clicks_Agent_Reg_And_Data Test Case passed
+2021-07-05 15:30:26,483 [main] INFO com.redbus.tests.Base - When_User_Clicks_Agent_Reg Test Case passed
+2021-07-05 15:30:48,492 [main] INFO com.redbus.tests.Base - When_User_Clicks_SignIn Test Case passed
+2021-07-05 15:31:12,575 [main] INFO com.redbus.tests.Base - When_User_Clicks_Bus_Hire Test Case passed
+2021-07-05 15:32:04,089 [main] INFO com.redbus.tests.Base - When_User_Clicks_Bus_Hire Test Case passed
+2021-07-05 15:32:39,958 [main] INFO com.redbus.tests.Base - When_User_Clicks_User_Agreement Test Case passed
+2021-07-05 15:32:57,020 [main] INFO com.redbus.tests.Base - When_User_Clicks_Operator_Reg Test Case passed
+2021-07-05 15:33:36,574 [main] INFO com.redbus.tests.Base - When_User_Clicks_Bus_Pool Test Case passed
+2021-07-05 15:34:12,901 [main] INFO com.redbus.tests.Base - When_User_Clicks_Bus_Pool_Android Test Case passed
+2021-07-05 15:34:46,128 [main] INFO com.redbus.tests.Base - When_User_Clicks_About_Us Test Case passed
+2021-07-05 15:35:20,056 [main] INFO com.redbus.tests.Base - When_User_Clicks_Career Test Case passed
+2021-07-05 15:35:31,947 [main] INFO com.redbus.tests.Base - When_User_Clicks_Change_Travel_Date Test Case passed
+2021-07-05 15:35:46,596 [main] INFO com.redbus.tests.Base - When_User_Clicks_Contact_Us Test Case passed
+2021-07-05 15:36:13,704 [main] INFO com.redbus.tests.Base - When_User_Clicks_Email_And_Sms Test Case passed
+2021-07-05 15:37:06,069 [main] INFO com.redbus.tests.Base - When_User_Clicks_Help Test Case passed
+2021-07-05 15:37:40,628 [main] INFO com.redbus.tests.Base - When_User_Clicks_Mobile_Version Case passed
+2021-07-05 15:38:14,232 [main] INFO com.redbus.tests.Base - When_User_Clicks_Offer_btn Case passed
+2021-07-05 15:38:37,858 [main] INFO com.redbus.tests.Base - When_User_Clicks_Global_Site_1 Test Case passed
+2021-07-05 15:39:21,483 [main] INFO com.redbus.tests.Base - When_User_Clicks_Goibibo_btn test Case passed
+2021-07-05 15:39:45,206 [main] INFO com.redbus.tests.Base - When_User_Clicks_MakeMyTrip_btn test Case passed
+2021-07-05 15:40:17,321 [main] INFO com.redbus.tests.Base - When_User_Clicks_Cancel_Ticket_And_Data Test Case failed
+2021-07-05 15:40:38,478 [main] INFO com.redbus.tests.Base - When_User_Clicks_Global_Site_2 Test Case passed
+2021-07-05 15:41:13,943 [main] INFO com.redbus.tests.Base - When_User_Clicks_Global_Site_3 Test Case passed
+2021-07-05 15:41:47,945 [main] INFO com.redbus.tests.Base - When_User_Clicks_Global_Site_4 Test Case passed
+2021-07-05 15:42:03,771 [main] INFO com.redbus.tests.Base - When_User_Clicks_Global_Site_5 Test Case passed
+2021-07-05 17:16:57,410 [main] INFO com.redbus.tests.Base - When_User_Clicks_Offer_btn Case passed
+2021-07-05 17:30:24,623 [main] INFO com.redbus.tests.Base - When_User_Clicks_Goibibo_btn test Case passed
+2021-07-05 17:30:40,904 [main] INFO com.redbus.tests.Base - When_User_Clicks_MakeMyTrip_btn test Case passed
+2021-07-05 17:31:22,020 [main] INFO com.redbus.tests.Base - When_User_Enter_Valid_From_InValid_To_and_Valid_Date Test Case Passed
+2021-07-05 17:31:42,987 [main] INFO com.redbus.tests.Base - When_User_Enter_Valid_From_Valid_To_and_InValid_Date functionality Test Case Passed
+2021-07-05 17:32:00,607 [main] INFO com.redbus.tests.Base - When_User_Enter_Valid_From_Valid_To_and_Valid_Date Test Case Passed
+2021-07-05 17:32:09,532 [main] INFO com.redbus.tests.Base - When_User_Clicks_About_Us Test Case passed
+2021-07-05 17:32:19,002 [main] INFO com.redbus.tests.Base - When_User_Clicks_Show_Ticket Test Case passed
+2021-07-05 17:32:33,696 [main] INFO com.redbus.tests.Base - When_User_Clicks_Agent_Reg_And_Data Test Case passed
+2021-07-05 17:32:47,618 [main] INFO com.redbus.tests.Base - When_User_Clicks_Agent_Reg Test Case passed
+2021-07-05 17:32:55,631 [main] INFO com.redbus.tests.Base - When_User_Clicks_SignIn Test Case passed
+2021-07-05 17:33:11,033 [main] INFO com.redbus.tests.Base - When_User_Clicks_Bus_Hire Test Case passed
+2021-07-05 17:33:46,332 [main] INFO com.redbus.tests.Base - When_User_Clicks_Bus_Hire Test Case passed
+2021-07-05 17:34:18,832 [main] INFO com.redbus.tests.Base - When_User_Clicks_Bus_Hire Test Case passed
+2021-07-05 17:34:28,978 [main] INFO com.redbus.tests.Base - When_User_Clicks_User_Agreement Test Case passed
+2021-07-05 17:34:43,520 [main] INFO com.redbus.tests.Base - When_User_Clicks_Operator_Reg Test Case passed
+2021-07-05 17:35:03,894 [main] INFO com.redbus.tests.Base - When_User_Clicks_Bus_Pool Test Case passed
+2021-07-05 17:35:19,283 [main] INFO com.redbus.tests.Base - When_User_Clicks_Bus_Pool_Android Test Case passed
+2021-07-05 17:35:27,334 [main] INFO com.redbus.tests.Base - When_User_Clicks_About_Us Test Case passed
+2021-07-05 17:35:35,748 [main] INFO com.redbus.tests.Base - When_User_Clicks_Career Test Case passed
+2021-07-05 17:35:48,911 [main] INFO com.redbus.tests.Base - When_User_Clicks_Change_Travel_Date Test Case passed
+2021-07-05 17:35:56,572 [main] INFO com.redbus.tests.Base - When_User_Clicks_Contact_Us Test Case passed
+2021-07-05 17:36:03,852 [main] INFO com.redbus.tests.Base - When_User_Clicks_Email_And_Sms Test Case passed
+2021-07-05 17:36:19,884 [main] INFO com.redbus.tests.Base - When_User_Clicks_Help Test Case passed
+2021-07-05 17:36:30,365 [main] INFO com.redbus.tests.Base - When_User_Clicks_Mobile_Version Case passed
+2021-07-05 17:36:41,292 [main] INFO com.redbus.tests.Base - When_User_Clicks_Offer_btn Case passed
+2021-07-05 17:36:51,837 [main] INFO com.redbus.tests.Base - When_User_Clicks_Global_Site_1 Test Case passed
+2021-07-05 17:37:11,411 [main] INFO com.redbus.tests.Base - When_User_Clicks_Goibibo_btn test Case passed
+2021-07-05 17:37:28,266 [main] INFO com.redbus.tests.Base - When_User_Clicks_MakeMyTrip_btn test Case passed
+2021-07-05 17:37:38,338 [main] INFO com.redbus.tests.Base - When_User_Clicks_Cancel_Ticket_And_Data Test Case failed
+2021-07-05 17:37:51,417 [main] INFO com.redbus.tests.Base - When_User_Clicks_Global_Site_2 Test Case passed
+2021-07-05 17:38:04,391 [main] INFO com.redbus.tests.Base - When_User_Clicks_Global_Site_3 Test Case passed
+2021-07-05 17:38:21,122 [main] INFO com.redbus.tests.Base - When_User_Clicks_Global_Site_4 Test Case passed
+2021-07-05 17:38:33,062 [main] INFO com.redbus.tests.Base - When_User_Clicks_Global_Site_5 Test Case passed

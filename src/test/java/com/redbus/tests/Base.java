@@ -181,7 +181,9 @@ public class Base {
 			throw new Exception("PLEASE CHECK THE BROWSER NAME !");
 		}
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	//	driver.manage().timeouts().implicitlyWait(prop.getProperty("Wait_value"), TimeUnit.SECONDS);
+
 	}
 
 	@BeforeMethod(groups = { "valid", "invalid" })

@@ -1,5 +1,9 @@
 ###Automation Test Framework - Exit Test
-**URL** - https://www.redbus.in/
+
+**URL** - [RedBus](https://www.redbus.in/)
+
+**Git_repo** - [Github_Prakhar_Rastogi_3164903](https://github.com/prakharR16/RedBusExitTest.git)
+(Goto master branch)
 #Tools Used:
 
 - Selenium Web Driver
@@ -29,27 +33,27 @@ log file for all test cases
 #Base.java
 - Contains driver initialization methods and file I/O methods
 
-#CartTest.java 
-extends Base.java
-- isCartEmptyBeforeShopping()
-- isCartNotEmptyBeforeShopping()
-- invalidisCartNotEmptyBeforeShopping()
-
-
-
-#ContactUsTest.java
-extends Base.java
-- contactUsPage
-
 
 #Tested functionalities:
 
-- Registration of Old user
-- Registration of New user
-- Create new account form
-- Cart section
-- Contact us page
-- Product search validation
+- SignIn user 
+- Search Bus
+- Modify Search Bus
+- Bus Hire for Out Station
+- Bus Hire for Local
+- Agent Registration
+- Bus Operator Registration
+- Bus Pool
+- About Us
+- Contact Us
+- Global Sites
+- Mobile Version Website
+- Cancel Ticket
+- Download Ticket
+- Sms and Email Ticket
+- Partner sites
+- Insurance Partner
+
 
 
 #Steps to Run (Eclipse IDE)-
@@ -93,7 +97,29 @@ and open ExtentReports.html
 - GOTO TDDEXIT\log for log files
 
 
-#Steps to Run (cmd)-
+#Steps to Run (Docker)-
+
+
+**Step 1**
+- Change in config.properties file (docker_mode=true)
+- Goto folder, in address bar type "cmd".
+
+**Step 2**
+- Type "mvn clean" in cmd and press Enter.
+
+**Step 3**
+- Type "mvn install" in cmd and press Enter.
+- or Type "mvn clean test" in cmd and press Enter.
+
+**Step 4**
+- After step3 GOTO TDDEXIT\Reports
+and open ExtentReports.html
+
+**Step 5**
+- GOTO TDDEXIT\log for log files
+
+
+#Steps to Run (jenkins)-
 
 
 **Step 1**
@@ -111,13 +137,13 @@ and open ExtentReports.html
 - Choose Windows Batch command in Build and add "mvn clean test"
 
 **Step 4**
-- Type "mvn install" in cmd and press Enter.
-- or Type "mvn clean test" in cmd and press Enter.
-
-**Step 4**
-- After step3 GOTO TDDEXIT\Reports
-and open ExtentReports.html
+- Click on Build now
+- Open Console output
 
 **Step 5**
+- After step4 GOTO TDDEXIT\Reports
+and open ExtentReports.html
+
+**Step 6**
 - GOTO TDDEXIT\log for log files
 
