@@ -1,5 +1,4 @@
-mvn clean test
-echo Sucess
+call mvn clean test
 @echo off
 echo.
 echo press enter to exit

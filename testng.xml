@@ -4,6 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.redbus.tests.HelpSectionTest"/>
+      <class name="com.redbus.tests.GlobalSiteBusSearchTest"/>
       <class name="com.redbus.tests.BusOperatorRegTest"/>
       <class name="com.redbus.tests.ContactUsTest"/>
       <class name="com.redbus.tests.InsurancePartner"/>
@@ -18,6 +19,7 @@
       <class name="com.redbus.tests.MobileVersionTest"/>
       <class name="com.redbus.tests.EmailAndSmsTest"/>
       <class name="com.redbus.tests.BusHireTest"/>
+      <class name="com.redbus.tests.ModifySearch"/>
       <class name="com.redbus.tests.OtherSitesTest"/>
       <class name="com.redbus.tests.AgentRegistrationTest"/>
       <class name="com.redbus.tests.OffersPageTest"/>

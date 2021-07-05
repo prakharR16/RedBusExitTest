@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.net.URL;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -16,6 +17,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -100,7 +102,8 @@ public class Base {
 	public static void intializeWebdriver() throws Exception {
 		String browser = prop.getProperty("browser_name");
 		String headless = prop.getProperty("headless_mode");
-
+		String docker_flag = prop.getProperty("docker_mode");
+		
 		// Check if parameter passed is firefox
 		if (browser.equalsIgnoreCase("firefox")) {
 			if (headless.equalsIgnoreCase("yes")) {
@@ -110,19 +113,36 @@ public class Base {
 				FirefoxOptions options = new FirefoxOptions();
 				options.setBinary(firefoxBinary);
 				// creating a firefox driver with headless
+				System.out.println("------------------FireFox-Headless----------------------");
+
 				driver = new FirefoxDriver(options);
-			} else if (headless.equalsIgnoreCase("no")) {
+			} else if (headless.equalsIgnoreCase("no") && docker_flag.equalsIgnoreCase("false")) {
 
 				// creating a firefox driver without headless
+				System.out.println("------------------FireFox-Driver----------------------");
+
 				System.setProperty(prop.getProperty("f_driver"), prop.getProperty("firefox_driver"));
 				driver = new FirefoxDriver();
-
 			}
+			else if (headless.equalsIgnoreCase("no") && docker_flag.equalsIgnoreCase("true")) {
+					System.out.println("------------------FireFox-Docker----------------------");
+					System.setProperty(prop.getProperty("f_driver"), prop.getProperty("firefox_driver"));
+					FirefoxOptions options = new FirefoxOptions();
+					driver = (new RemoteWebDriver(new URL("http:localhost:4444/wd/hub"), options));
+					} 
+			else if (docker_flag.equalsIgnoreCase("false")) {
+				System.out.println("------------------FireFox-Driver----------------------");
+				System.setProperty(prop.getProperty("f_driver"), prop.getProperty("firefox_driver"));
+					driver = new FirefoxDriver();
+					}
 		}
+				
+
 
 		// Check if parameter is 'chrome'
 		else if (browser.equalsIgnoreCase("chrome")) {
 			if (headless.equalsIgnoreCase("yes")) {
+				System.out.println("------------------Chrome-Headless----------------------");
 				System.setProperty(prop.getProperty("c_driver"), prop.getProperty("chrome_driver"));
 				ChromeOptions options = new ChromeOptions();
 				options.addArguments("--disable-notifications");
@@ -131,12 +151,26 @@ public class Base {
 				options.addArguments("headless");
 				// create chrome instance with headless
 				driver = new ChromeDriver(options);
-			} else if (headless.equalsIgnoreCase("no")) {
+			} else if (headless.equalsIgnoreCase("no") && docker_flag.equalsIgnoreCase("false")) {
 				// creating a chrome driver without headless
+				System.out.println("------------------Chrome-Driver----------------------");
 				System.setProperty(prop.getProperty("c_driver"), prop.getProperty("chrome_driver"));
 				driver = new ChromeDriver();
-			}
-		}
+				
+			}else if ( headless.equalsIgnoreCase("no") && docker_flag.equalsIgnoreCase("true")) {
+				System.out.println("---------------Chrome-docker-------------------");
+				ChromeOptions options = new ChromeOptions();
+				options.addArguments("--disable-dev-shm-usage");
+				driver = new RemoteWebDriver(new URL("http:localhost:4444/wd/hub"), options);
+				} 
+			else if (docker_flag.equalsIgnoreCase("false")) {
+				System.out.println("------------------Chrome-Driver---------------------");
+				System.setProperty(prop.getProperty("c_driver"), prop.getProperty("chrome_driver"));
+				driver = new ChromeDriver();
+				}
+
+				}
+		
 		// Check if parameter is 'Edge'
 		else if (browser.equalsIgnoreCase("edge")) {
 			System.setProperty(prop.getProperty("e_driver"), prop.getProperty("edge_driver"));
